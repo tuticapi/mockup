@@ -337,7 +337,8 @@ define([
         // does the expected language exist?
         $.ajax({
           url: tinymce.baseURL + '/langs/' + lang + '.js',
-          type:'HEAD',
+          method: 'GET',
+          cache: 'true',
           success: function() {
             self.options.tiny.language = lang;
             call_back();
@@ -351,7 +352,8 @@ define([
             }
             $.ajax({
               url: tinymce.baseURL + '/langs/' + lang + '.js',
-              type:'HEAD',
+              method: 'GET',
+              cache: 'true',
               success: function() {
                 self.options.tiny.language = lang;
                 call_back();
