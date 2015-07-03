@@ -1,3 +1,13 @@
+Mockup
+======
+
+This is the documentation for Plone Mockup.
+
+.. toctree::
+    :maxdepth: 2
+
+    about
+
 .. toctree::
    :maxdepth: 2
 
