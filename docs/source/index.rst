@@ -7,6 +7,9 @@ This is the documentation for Plone Mockup.
     :maxdepth: 2
 
     about
+    GETTING_STARTED
+    LEARN
+    LICENSE
 
 .. toctree::
    :maxdepth: 2
