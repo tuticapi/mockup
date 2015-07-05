@@ -346,9 +346,9 @@ Nesting the Options
   globally change such options later.
 | Luckily the patterns provide a mechanism to avoid problems like these
   and that is *option nesting*. It works as follows - you can define a
-  \_data-pat-\ *\_ attribute on an element somewhere in the DOM
-  hierarchy and all its descendants (at all levels) will *\ inherit the
-  option values\* listed there! This is quite a useful feature indeed.
+  *data-pat-\** attribute on an element somewhere in the DOM
+  hierarchy and all its descendants (at all levels) will *inherit the
+  option values* listed there! This is quite a useful feature indeed.
 
 Suppose we modify the *<body>* tag in our *hello.html page and add
 *\ data-pat-helloworld\* attribute to it:
