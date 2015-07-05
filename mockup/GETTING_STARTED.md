@@ -149,10 +149,10 @@ bower_components/mockup-core/ to your local mockup-core checkout.
 
 # Upgrade from pre-2.0 to 2.0 based Mockup patterns
 
-Since version 2.0, Mockup uses the Patternslib scanner and it's registry. This
+Since version 2.0, Mockup uses the Patternslib scanner and its registry. This
 allows us to: Use Patternslib patterns with Mockup/Plone and use Mockup
 patterns with Patternslib outside of Plone. The integration with Patternslib
-require that some small changes be made to newly developed Mockup patterns:
+requires some small changes to be made to newly developed Mockup patterns:
 
 1. Patterns should now use pat-registry as dependency instead of
    mockup-registry.
