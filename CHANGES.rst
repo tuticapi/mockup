@@ -4,6 +4,10 @@ Changelog
 2.1.0 (Unreleased)
 -------------------
 
+- Unify pattern file layout and drop less subdirectories. Fixes building of
+  docs from other packages, which depend on mockup.
+  [thet]
+
 - Remove mockup-core as a dependency.
   [jcbrand, goibhniu]
 
@@ -14,11 +18,13 @@ Changelog
     in the `Base.extend` call.
     Refer to any of the core Mockup patterns for examples.
 
+
 2.0.12 (2015-09-20)
 -------------------
 
 - Update manifest to include required files.
   [esteele]
+
 
 2.0.11 (2015-09-20)
 -------------------
