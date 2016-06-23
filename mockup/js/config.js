@@ -21,7 +21,6 @@
     baseUrl: './',
     optimize: 'none',
     paths: {
-      'JSXTransformer': 'bower_components/react/JSXTransformer',
       'ace': 'bower_components/ace-builds/src/ace',
       'backbone': 'bower_components/backbone/backbone',
       'backbone.paginator': 'bower_components/backbone.paginator/lib/backbone.paginator',
@@ -107,7 +106,9 @@
       'picker': 'bower_components/pickadate/lib/picker',
       'picker.date': 'bower_components/pickadate/lib/picker.date',
       'picker.time': 'bower_components/pickadate/lib/picker.time',
-      'react': 'bower_components/react/react',
+      'react': 'bower_components/react/react.min',
+      'react-dom': 'bower_components/react/react-dom.min',
+      'react-with-addons': 'bower_components/react/react-with-addons.min',
       'select2': 'bower_components/select2/select2',
       'sinon': 'bower_components/sinonjs/sinon',
       'text': 'bower_components/requirejs-text/text',
@@ -126,7 +127,6 @@
       'logging': 'bower_components/logging/src/logging'
     },
     shim: {
-      'JSXTransformer': { exports: 'window.JSXTransformer' },
       'backbone': { exports: 'window.Backbone', deps: ['underscore', 'jquery'] },
       'backbone.paginator': { exports: 'window.Backbone.Paginator', deps: ['backbone'] },
       'bootstrap-alert': {  exports: 'window.jQuery.fn.alert.Constructor', deps: ['jquery'] },
