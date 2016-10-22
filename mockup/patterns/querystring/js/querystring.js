@@ -57,6 +57,7 @@ define([
     },
 
     addCriteriaClicked: function(e){
+      debugger;
       e.preventDefault();
       this.props.storage.dispatcher.handleViewAction({
         actionType: 'addCriteria',
@@ -91,6 +92,7 @@ define([
 
       this.state.criterias.forEach(function(criteria, idx){
         criterias.push(R.createElement(CriteriaComponent, $.extend({}, true, criteria, {
+          ref: 'criteria' + idx,
           parent: that,
           idx: idx,
           storage: that.props.storage
