@@ -1,8 +1,8 @@
 define([
   'jquery',
   'react',
-  'mockup-patterns-querystring-url/criteria',
-  'mockup-patterns-querystring-url/widgets/select2'
+  'mockup-patterns-querystring-url/js/criteria',
+  'mockup-patterns-querystring-url/js/widgets/select2'
 ], function($, R, CriteriaComponent, Select2Component){
   'use strict';
 
@@ -57,7 +57,6 @@ define([
     },
 
     addCriteriaClicked: function(e){
-      debugger;
       e.preventDefault();
       this.props.storage.dispatcher.handleViewAction({
         actionType: 'addCriteria',

@@ -49,8 +49,8 @@ define([
   'pat-base',
   'react',
   'react-dom',
-  'mockup-patterns-querystring-url/querystring',
-  'mockup-patterns-querystring-url/store'
+  'mockup-patterns-querystring-url/js/querystring',
+  'mockup-patterns-querystring-url/js/store'
 ], function($, Base, R, ReactDOM, QueryStringComponent, StorageFactory) {
   'use strict';
 

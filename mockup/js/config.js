@@ -77,7 +77,7 @@
       'mockup-patterns-pickadate': 'patterns/pickadate/pattern',
       'mockup-patterns-preventdoublesubmit': 'patterns/preventdoublesubmit/pattern',
       'mockup-patterns-querystring': 'patterns/querystring/pattern',
-      'mockup-patterns-querystring-url': 'patterns/querystring/js',
+      'mockup-patterns-querystring-url': 'patterns/querystring',
       'mockup-patterns-relateditems': 'patterns/relateditems/pattern',
       'mockup-patterns-recurrence': 'patterns/recurrence/pattern',
       'mockup-patterns-resourceregistry': 'patterns/resourceregistry/pattern',

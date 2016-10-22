@@ -1,6 +1,6 @@
 define([
   'react',
-  'mockup-patterns-querystring-url/widgets/select2'
+  'mockup-patterns-querystring-url/js/widgets/select2'
 ], function(R, Select2Component){
   'use strict';
 

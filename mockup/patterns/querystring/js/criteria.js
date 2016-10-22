@@ -1,14 +1,14 @@
 define([
   'jquery',
   'react',
-  'mockup-patterns-querystring-url/widgets/string',
-  'mockup-patterns-querystring-url/widgets/multipleselection',
-  'mockup-patterns-querystring-url/widgets/relativedate',
-  'mockup-patterns-querystring-url/widgets/daterange',
-  'mockup-patterns-querystring-url/widgets/date',
-  'mockup-patterns-querystring-url/widgets/reference',
-  'mockup-patterns-querystring-url/widgets/relativepath',
-  'mockup-patterns-querystring-url/widgets/select2'
+  'mockup-patterns-querystring-url/js/widgets/string',
+  'mockup-patterns-querystring-url/js/widgets/multipleselection',
+  'mockup-patterns-querystring-url/js/widgets/relativedate',
+  'mockup-patterns-querystring-url/js/widgets/daterange',
+  'mockup-patterns-querystring-url/js/widgets/date',
+  'mockup-patterns-querystring-url/js/widgets/reference',
+  'mockup-patterns-querystring-url/js/widgets/relativepath',
+  'mockup-patterns-querystring-url/js/widgets/select2'
 ], function($, R, StringWidget, MultipleSelectionWidget, RelativeDateWidget, DateRangeWidget,
             DateWidget, ReferenceWidget, RelativePathWidget, Select2Component){
   'use strict';
