@@ -16,6 +16,7 @@
     "jquery.recurrenceinput.js": "v1.5.2",
     "logging": "",
     "marked": "0.3.5",
+    "mark.js": "8.8.3",
     "moment": "2.10.6",
     "patternslib": "2.0.13",
     "pickadate": "3.5.6",
