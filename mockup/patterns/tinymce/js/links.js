@@ -17,7 +17,7 @@ define([
     name: 'linktype',
     trigger: '.pat-linktype-dummy',
     defaults: {
-      linkModal: null // required
+      linkModal: null // required DAMH 2020
     },
 
     init: function() {
